@@ -1,0 +1,264 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "POotNH",
+				"abbreviation": "POotNH",
+				"full": "DnD Shorts, Paladin: Oath of the Nine Hells",
+				"authors": [
+					"DnD Shorts"
+				],
+				"convertedBy": [
+					"kados"
+				],
+				"version": "2024.05.31",
+				"url": "https://www.patreon.com/checkout/dndshorts?rid=7483759",
+				"targetSchema": "1.5.0"
+			}
+		],
+		"dateAdded": 1717275545,
+		"dateLastModified": 1717275545,
+		"_dateLastModifiedHash": "db60a288a1"
+	},
+	"subclass": [
+		{
+			"name": "Oath of the Nine Hells",
+			"shortName": "NineHells",
+			"source": "POotNH",
+			"additionalSpells": [
+				{
+					"prepared": {
+						"3": [
+							"command",
+							"hellish rebuke"
+						],
+						"5": [
+							"enlarge/reduce",
+							"suggestion"
+						],
+						"9": [
+							"fireball",
+							"magic circle"
+						],
+						"13": [
+							"banishment",
+							"wall of fire"
+						],
+						"17": [
+							"geas",
+							"planar binding"
+						]
+					},
+					"ability": "cha"
+				}
+			],
+			"subclassFeatures": [
+				"Oath of the Nine Hells|Paladin||NineHells|POotNH|3",
+				"Devilish Aura|Paladin||NineHells|POotNH|7",
+				"Hellish Gifts|Paladin||NineHells|POotNH|15",
+				"Infernal Transformation|Paladin||NineHells|POotNH|20"
+			],
+			"className": "Paladin",
+			"classSource": "PHB"
+		}
+	],
+	"subclassFeature": [
+		{
+			"name": "Oath of the Nine Hells",
+			"source": "POotNH",
+			"className": "Paladin",
+			"classSource": "PHB",
+			"subclassShortName": "NineHells",
+			"subclassSource": "POotNH",
+			"level": 3,
+			"entries": [
+				"Forged in fire and desperation, far from the golden skies and stifling tranquility of the higher planes, warriors battle endlessly for the fate of all realms. Devils, demons, and other unimaginable creatures run rampant across the underworlds, each faction a world-devouring force, like a great colossal hydra, ready to conquer all if not for the interference of each other. In this eternal battleground, some warriors find meaning. Those who take the Oath of the Nine Hells pledge themselves to the under-world, wielding the strength of devils. Some do this for selfish reasons, eager to harness the fiery power of hell, while others see it as the lesser of two evils, fighting fire with hellfire. In all cases, Oath of the Nine Hells Paladins are ferocious, brave, and blessed with devilish ambition and cunning. They despise demons, recognising the threat they pose to the entire multiverse, and channel infernal magic to utterly incinerate any foe who stands in their way.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Tenets of the Nine Hells|Paladin||NineHells|POotNH|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Oath Spells|Paladin||NineHells|POotNH|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Channel Divinity: Hellish Strike|Paladin||NineHells|POotNH|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Channel Divinity: Turn Fiend|Paladin||NineHells|POotNH|3"
+				}
+			]
+		},
+		{
+			"name": "Channel Divinity: Hellish Strike",
+			"source": "POotNH",
+			"className": "Paladin",
+			"classSource": "PHB",
+			"subclassShortName": "NineHells",
+			"subclassSource": "POotNH",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"As a bonus action, you imbue a weapon you are holding with the living inferno of the nine hells. The next time you make an attack roll against a creature with that weapon within the next minute, the weapon lets loose a burst of unholy flame, and the target takes additional fire damage equal to 10 + your Paladin level (whether the attack hits or misses)."
+			]
+		},
+		{
+			"name": "Channel Divinity: Turn Fiend",
+			"source": "POotNH",
+			"className": "Paladin",
+			"classSource": "PHB",
+			"subclassShortName": "NineHells",
+			"subclassSource": "POotNH",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"As an action, you present your holy symbol and utter a ferocious battlecry. Each Fiend that can see or hear you within 30 feet of you must make a Wisdom saving throw. Creatures that are the Fiend (Demon) type or are of a CR or Level lower than your paladin level have disadvantage on this Wisdom saving throw. If the creature fails its saving throw, it is turned for 1 minute or until it takes any damage.",
+				"A turned creature must spend its turns trying to move as far away from you as it can, and it can’t willingly move to a space within 30 feet of you. It also can’t take reactions. For its action, it can use only the Dash action or try to escape from an effect that prevents it from moving. If there’s nowhere to move, the creature can use the Dodge action."
+			]
+		},
+		{
+			"name": "Oath Spells",
+			"source": "POotNH",
+			"className": "Paladin",
+			"classSource": "PHB",
+			"subclassShortName": "NineHells",
+			"subclassSource": "POotNH",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"You gain the following oath spells at the paladin levels listed.",
+				{
+					"type": "table",
+					"caption": "Oath of the Nine Hells",
+					"colLabels": [
+						"Paladin Level",
+						"Spells"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"3rd",
+							"{@spell Command}, {@spell Hellish Rebuke}"
+						],
+						[
+							"5th",
+							"{@spell Enlarge/Reduce}, {@spell Suggestion}"
+						],
+						[
+							"9th",
+							"{@spell Fireball}, {@spell Magic Circle}"
+						],
+						[
+							"13th",
+							"{@spell Banishment}, {@spell Wall of Fire}"
+						],
+						[
+							"17th",
+							"{@spell Geas}, {@spell Planar Binding}"
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "Tenets of the Nine Hells",
+			"source": "POotNH",
+			"className": "Paladin",
+			"classSource": "PHB",
+			"subclassShortName": "NineHells",
+			"subclassSource": "POotNH",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"Tenets:",
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Ambition",
+							"entries": [
+								"It is every creature’s duty to seek power, be it for the good of others, or only themselves."
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Hierarchy",
+							"entries": [
+								"The universe spins around a static pillar of ultimate authority. There will always be a top and a bottom of society, and only those too weak to climb it complain."
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Law.",
+							"entries": [
+								"The word of the law is paramount and must be upheld. Without it, chaos reigns."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Devilish Aura",
+			"source": "POotNH",
+			"className": "Paladin",
+			"classSource": "PHB",
+			"subclassShortName": "NineHells",
+			"subclassSource": "POotNH",
+			"level": 7,
+			"header": 2,
+			"entries": [
+				"(7th Level Nine Hells Feature)",
+				"You radiate an aura of spiteful, living fire magic. Creatures of your choice within 10 feet of you take an additional 1d4 fire damage when hit by a weapon attack.",
+				"At 18th level, the range of this aura increases to 30 feet."
+			]
+		},
+		{
+			"name": "Hellish Gifts",
+			"source": "POotNH",
+			"className": "Paladin",
+			"classSource": "PHB",
+			"subclassShortName": "NineHells",
+			"subclassSource": "POotNH",
+			"level": 15,
+			"header": 2,
+			"entries": [
+				"(15th Level Nine Hells Feature)",
+				"You are immune to fire damage and the frightened condition.",
+				"In addition, you learn one Eldritch Invocation of your choice from the Warlock class. You must still meet the prerequisites to learn it (if any).",
+				"You can swap the Eldritch Invocation you gained from this feature for another by performing a 1 hour ritual. Once you perform this ritual, you cannot do so again until you finish a long rest."				
+			]
+		},
+		{
+			"name": "Infernal Transformation",
+			"source": "POotNH",
+			"className": "Paladin",
+			"classSource": "PHB",
+			"subclassShortName": "NineHells",
+			"subclassSource": "POotNH",
+			"level": 20,
+			"header": 2,
+			"entries": [
+				"(20th Level Nine Hells Feature)",
+				"As an action on your turn, you can cast the shapechange spell with this feature, without expending a spell slot, but the creature you shapechange into must be a Fiend (Devil).",
+				"Once you use this feature, you cannot do so again until you finish a long rest."
+			]
+		}
+	]
+}
