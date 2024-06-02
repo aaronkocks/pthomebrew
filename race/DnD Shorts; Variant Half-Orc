@@ -1,0 +1,158 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "DNDSVariantHalfOrc",
+				"abbreviation": "VHO",
+				"full": "Variant Half-Orc",
+				"authors": [
+					"DnD Shorts"
+				],
+				"version": "2024.04.30",
+				"url": "https://github.com/TheGiddyLimit/homebrew",
+				"targetSchema": "1.0.0"
+			}
+		],
+		"dateAdded": 1717284961,
+		"dateLastModified": 1717284961,
+		"_dateLastModifiedHash": "0803d8fd66"
+	},
+	"race": [
+		{
+			"name": "Variant Half-Orc",
+			"source": "DNDSVariantHalfOrc",
+			"ability": [
+				{
+					"con": 1
+				}
+			],
+			"size": [
+				{
+				"choose": {
+					"from": [
+						"S",
+						"M",
+						"L"
+					]
+				}
+				}
+			],
+			"speed": 30,
+			"darkvision": 60,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Age",
+					"entries": [
+						"Half-orcs mature a little faster than humans, reaching adulthood around age 14. They age noticeably faster and rarely live longer than 75 years."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Relentless Endurance",
+					"entries": [
+						"When you are reduced to 0 hit points but not killed outright, you can drop to 1 hit point instead. You can’t use this feature again until you finish a long rest."
+					]
+				},
+				{
+					"name": "Darkvision",
+					"entries": [
+						"Thanks to your orc blood, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can’t discern colour in darkness, only shades of grey."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Dual Lineage",
+					"entries": [
+						{
+							"name": "Choose one of the following lineages and gain the associated benefits:",
+							"entries": [
+								{
+									"name": "Human",
+									"entries": [
+										"Increase three Ability Scores of your choice by 1.",
+										"You gain proficiency in one skill and one tool of your choice, and you speak one additional language you and your GM agree is appropriate for your character.",
+										"Your size is Medium or Small."
+									],
+									"type": "entries"
+								},
+								{
+									"name": "High Elf",
+									"entries": [
+										"Increase your Intelligence score by 2.",
+										"You have proficiency in the Perception skill.",
+										"You know one cantrip of your choice from the Wizard spell list. Intelligence, Wisdom, or Charima is your spellcasting modifier for this spell (choose when you select this race).",
+										"Your size is Medium."
+									],
+									"type": "entries"
+								},
+								{
+									"name": "Halfling",
+									"entries": [
+										"Increase your Dexterity score by 2.",
+										"You have proficiency in the Stealth skill.",
+										"When you roll a 1 on the d20 for an attack roll, ability check, or saving throw, you can reroll the die and must use the new roll.",
+										"Your size is Small."
+									],
+									"type": "entries"
+								},
+								{
+									"name": "Gnome",
+									"entries": [
+										"Increase your Intelligence score by 2.",
+										"You have proficiency with two tools of your choice.",
+										"If you fail an Intelligence, Wisdom, or Charisma saving throw, you can reroll that saving throw. You must use the new roll. You can use this trait a number of times equal to your Proficiency Bonus, regaining all expended uses upon finishing a long rest.",
+										"Your size is Small."
+									],
+									"type": "entries"
+								},
+								{
+									"name": "Tiefling",
+									"entries": [
+										"Increase your Charisma score by 2.",
+										"You gain proficiency in one of the following skills: Deception, Intimidation, Persuasion, or Religion.",
+										"You have a resistance to Fire damage.",
+										"Your size is Medium."
+									],
+									"type": "entries"
+								},
+								{
+									"name": "Dwarf",
+									"entries": [
+										"Increase your Strength score by 1 and your Constitution score by 1.",
+										"You have proficiency with two martial weapons of your choice.",
+										"You have advantage on saving throws to avoid the harmful effects of poisons, and you have a resistance to poison damage.",
+										"Your size is Medium."
+									],
+									"type": "entries"
+								},
+								{
+									"name": "Dragonborn",
+									"entries": [
+										"Increase your Strength score by 1 and your Charisma score by 1.",
+										"You have a tough, scaly hide. When you aren't wearing armour, your AC equals 13 + your Dexterity modifier (a shield's benefits apply as normal).",
+										"When you hit a creature with an attack roll, you can deal additional damage equal to twice your proficiency bonus. This additional damage is acid, cold, fire, lightning, or thunder damage (choose when you select this race). You can use this feature a number of times equal to your Proficiency Bonus, regaining all expended uses upon finishing a long rest.",
+										"Your size is Medium."
+									],
+									"type": "entries"
+								},
+								{
+									"name": "Centaur",
+									"entries": [
+										"Increase your Strength score by 2.",
+										"Your base walking speed increases to 40 feet.",
+										"You have hooves, which you can use to make unarmed strikes. When you hit with them, the strike deals 1d6 + your Strength modifier bludgeoning damage, instead of the bludgeoning damage normal for an unarmed strike.",
+										"Your size is Medium."
+									],
+									"type": "entries"
+								}
+							],
+							"type": "entries"
+						}
+					],
+					"type": "entries"
+				}
+			]
+		}
+	]
+}
